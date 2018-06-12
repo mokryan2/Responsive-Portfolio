@@ -1,0 +1,294 @@
+/* Mandatory items for  pages */
+.nav {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    float:right;
+    margin-top:10px;
+    margin-right: 17%;
+    padding: 10px;
+    color:#777777;
+ }
+ 
+ .header {
+     background-color:#ffffff;
+     color:white;
+     font-family: 'Georgia', Times, Times New Roman, serif;
+     border-bottom: 2px solid #cccccc;
+     width:100%;
+     height:58px;
+     padding-top:-20px;
+     margin-top:-10px;
+ }
+ 
+ .subheader {
+     background-color:#4aaaa5;
+     display: inline-block;
+     padding: 10px;
+     margin-top:0px;
+     margin-left: 18%;
+
+ }
+ 
+ .footerAll {
+     background-color: #666666;
+     height: 58px;
+     border-top: 10px solid #4aaaa5;
+     text-align: center;
+     color: white;
+     line-height: 76px;
+     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+     font-size: 12px;
+     margin:auto;
+ }
+ 
+ .footer {    
+     bottom: 0;
+     position: fixed;
+     width: 100%;
+     margin-left:-10px;
+ }
+ 
+ .content {
+     border-style:solid;
+     border-color:#dddddd;
+     background-color:#ffffff;
+     color:#777777;
+     margin-top: 30px;
+     margin-left:18%;
+     padding: 10px;
+     border: 5px solid #cccccc;
+     width:960px;
+ }
+ 
+ .h1 {
+     color:#4aaaa5;
+     border-bottom: 1px solid black;
+     font-family: 'Georgia', Times, Times New Roman, serif;
+     padding-bottom: 10px;
+ }
+ 
+ .bodyBackground{
+     background-image:url(../Responsive-Portfolio/images/what-the-hex.png);
+     margin: 0%;
+ }
+ 
+ /* This is for the about page */
+ 
+ 
+ .bio-image {
+     float: left;
+     height: 200px;
+     width: 275px;
+     padding: 10px;
+ }
+ 
+ 
+ /* This is for the contact page */
+ 
+ section {
+     color: #777777;
+     width: 100%; 
+     padding: 12px;      
+     box-sizing: border-box; 
+     margin-top: 10px; 
+     margin-bottom: 5px;     
+ }
+ 
+ label {
+     color: #777;
+     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+     display: block;   
+     margin-top: 15px;
+ }
+ 
+ input {
+     font-family: Arial, Helvetica, sans-serif;
+     width: 100%;
+     margin-bottom: 15px;    
+ }
+ 
+ .message {
+     height: 250px;
+ }
+ 
+ textarea {
+     font-family: Arial, Helvetica, sans-serif;
+     width: 100%;
+ }
+ 
+ .button {
+     background-color:#4aaaa5;
+     border: solid 1px;
+     border-color: #777777;
+     color: white; 
+     height: 40px;
+     width: 80px;    
+ }
+ 
+ 
+ /* This is for the Portfolio page */
+ 
+ .image {
+     height: 150px;
+     width: 225px;
+     float: left;
+     position: relative;
+     padding: 20px;
+ }
+ 
+ .imgTag {
+     background-color:#4aaaa5;
+     text-align: center;
+     width: 205px;
+     padding: 10px;
+     color: #ffffff;
+     font-family: 'Georgia', Times, Times New Roman, serif;
+     position: absolute;
+     clear: both;
+     margin-top:125px;
+     margin-left:20px;
+ 
+ }
+ 
+ 
+ .content-port {
+     background: #ffffff;
+     font-family: Arial, Helvetica, sans-serif;
+     color: #777777;
+     border: 5px solid #dddddd;
+     Height: 840px;
+     width: 720px;
+     margin: auto;
+     padding: 36px 35px 20px 35px;
+     margin-bottom: 125px;
+     margin-top: 35px;
+     
+ }
+
+ /* This is for media query dimensions */
+
+ @media screen and (max-width: 980px) {
+    .bodyBackground{ 
+        margin:0px;
+    }
+    .header {
+        background-color: white;
+        margin-left:0px;
+        width:100%;
+    }
+    .subheader {
+        margin-left:20px;
+    }
+    .content {
+        width:550px;
+        margin-left: auto;
+        margin-right:auto;    
+    }    
+    .nav {
+        text-align:right;
+        width:100%;
+        margin-right: 0px;
+        margin-top: -7%
+    }
+    .image {
+        margin-left:8%;
+        padding: 10px;
+    }
+    .imgTag {
+        margin-top: 47%;
+        margin-left: 28px;
+    }
+    .content-port {
+        width:700px;
+        margin-left:auto;
+        padding: 0;
+    
+    }
+
+@media screen and (max-width: 768px) {
+    .bodyBackground{ 
+        margin:0px;
+    }
+    .header {
+        background-color: white;
+        margin-left:0px;
+        width:100%;
+    }
+    .subheader {
+        margin-left:20px;
+    }
+    .content {
+        width:550px;
+        margin-left: auto;
+        margin-right:auto;    
+    }    
+    .nav {
+        text-align:right;
+        width:100%;
+        margin-right: 0px;
+        margin-top: -9%
+    }
+    .image {
+        margin-left:8%;
+        padding: 10px;
+    }
+    .imgTag {
+        margin-top: 47%;
+        margin-left: 28px;
+    }
+    .content-port {
+        width:700px;
+        margin-left:auto;
+        padding: 0;
+    
+    }
+    
+@media screen and (max-width: 640px) {
+    .bodyBackground{ 
+        margin:0px;
+    }
+    .h1{
+        text-align: center;
+    }
+    .header {
+        background-color: #4aaaa5;
+        position: static;
+        text-align: center;
+        margin-left:0px;
+        width:100%;
+        margin-left:0;
+    }
+    .subheader{
+        margin-left:-20px;
+    }
+    .nav {
+        background-color: white;
+        width:100%;
+        text-align:center;
+        margin-top: -20px;
+        margin-right:0px; 
+    }
+    .content {
+        width:550px;
+        margin-top: 8%;
+        margin-left: auto;
+        margin-right:auto;
+    }
+    .image {
+        margin-left: 12%;
+        margin-top:-15px;
+        padding: 10px;
+    }
+    .imgTag {
+        margin-top: 40%;
+        margin-left: 37px;
+    }
+    .content-port {
+        width:400px;
+        margin-top: 8%;
+        margin-left:auto;
+        padding: 0;
+    
+    }
+}
+}
+}
